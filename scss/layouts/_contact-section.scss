@@ -1,6 +1,9 @@
 .contact-section {
    &__container {
-      padding-top: 40px;
+      padding-top: 62px;
+      @media (min-width: $bp-mobile) {
+         padding-top: 76px;
+      }
       @media (min-width: $bp-tablet) {
          padding: 96px 0 65px;
       }

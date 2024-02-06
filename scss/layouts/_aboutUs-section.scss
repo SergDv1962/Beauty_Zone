@@ -1,5 +1,9 @@
 .aboutUs-section {
    &__container {
+      padding-top: 62px;
+      @media (min-width: $bp-mobile) {
+         padding-top: 76px;
+      } 
       @media (min-width: $bp-tablet) {
          display: flex;
          gap: 3%;

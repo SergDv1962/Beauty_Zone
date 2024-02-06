@@ -3,7 +3,7 @@
    margin: 0 auto;
    padding: 0 20px;
 
-   @media (min-width: calc($bp-desktop)) {
+   @media (min-width: $bp-desktop) {
       padding: 0;
    }
 }

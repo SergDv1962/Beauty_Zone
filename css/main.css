@@ -44,7 +44,7 @@
 
 .title {
   font-family: Play, sans-serif;
-  font-size: 31px;
+  font-size: 29px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 24px;
@@ -294,6 +294,14 @@ button {
   line-height: 1.2;
 }
 
+.aboutUs-section__container {
+  padding-top: 62px;
+}
+@media (min-width: 480px) {
+  .aboutUs-section__container {
+    padding-top: 76px;
+  }
+}
 @media (min-width: 768px) {
   .aboutUs-section__container {
     display: -webkit-box;
@@ -455,7 +463,12 @@ button {
   }
 }
 .contact-section__container {
-  padding-top: 40px;
+  padding-top: 62px;
+}
+@media (min-width: 480px) {
+  .contact-section__container {
+    padding-top: 76px;
+  }
 }
 @media (min-width: 768px) {
   .contact-section__container {
@@ -1057,7 +1070,12 @@ button {
 }
 
 .procedures-section__container {
-  padding-top: 40px;
+  padding-top: 62px;
+}
+@media (min-width: 480px) {
+  .procedures-section__container {
+    padding-top: 76px;
+  }
 }
 @media (min-width: 768px) {
   .procedures-section__container {
@@ -1163,7 +1181,12 @@ button {
 }
 
 .whyUs-section__container {
-  padding-top: 96px;
+  padding-top: 62px;
+}
+@media (min-width: 480px) {
+  .whyUs-section__container {
+    padding-top: 76px;
+  }
 }
 @media (min-width: 1240px) {
   .whyUs-section__container {
